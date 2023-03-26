@@ -13,13 +13,13 @@ export const App = () => {
     const targetName = target.name.toLowerCase();
     switch (targetName) {
       case 'good':
-        setGood(prevValue => prevValue + 1);
+        setGood(good+ 1);
         break;
       case 'neutral':
-        setNeutral(prevValue => prevValue + 1);
+        setNeutral(neutral + 1);
         break;
       case 'bad':
-        setBad(prevValue => prevValue + 1);
+        setBad(bad+ 1);
         break;
       default:
         return;
